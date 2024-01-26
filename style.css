@@ -1,0 +1,241 @@
+*{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        }
+        body{
+            margin: 0% 10%;
+            background-color: black;
+        }
+        .para-1{
+            display: flex;
+            font-family: 'Cormorant Garamond', serif;
+            background-color: black;
+            color: white;
+            padding:10px 0px; 
+        }
+        .para-1 h3{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            width: 16%;
+            cursor:none;
+        }
+        .para-1 ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:100%;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        .para-1 li{
+            padding: 0px 15px;
+        }
+        .para-1 a{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            background-color:yellow;
+            color: black;
+            padding: 10px 25px;
+            
+            cursor:pointer;
+            }
+        .para-1 i{
+            display: none;
+        }
+        .para-2{
+            width:100%;
+            background-color: black;
+            color:white;
+            padding: 10px 100px;
+        }
+        .para-2 h1{
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 58px;
+            width:60%;
+        }
+        .para-2 p{
+            font-family: 'Josefin Sans', sans-serif;
+            word-spacing: 3px;
+            color: darkgrey;
+            width:60%;
+        }
+        .para-3{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+			left:40px;
+        }
+        .para-3 img{
+            padding:40px;
+        }
+        .para-4{
+            display: flex;
+        }
+        .Asset1{
+            padding:10px 20px;
+        }
+        .Asset1 h3{
+            font-family: 'Cormorant Garamond', serif;
+            color: white;
+            font-size: 32px;
+            padding:15px;
+        }
+        .Asset1 p{
+            font-family: 'Josefin Sans', sans-serif;
+            color: darkgrey;
+            padding:10px;
+        }
+        .Asset2{
+            padding:10px 20px;
+        }
+        .Asset2 h3{
+            font-family: 'Cormorant Garamond', serif;
+            color:white;
+            font-size: 32px;
+            padding:15px;
+        }
+        .Asset2 p{
+            font-family: 'Josefin Sans', sans-serif;
+            color:darkgrey;
+            padding:10px;
+        }
+        .para-5{
+            display: flex;
+            flex-wrap: wrap;
+            background-color:#414141;
+            color: white;
+            margin:0px -152px;
+            padding: 60px 200px;
+        }
+        .left{
+            width:46%;
+            margin-right: 8%;
+        }
+        .left h3{
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 40px;
+        }
+        .left p{
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        .right{
+            width:45%;
+            font-family: 'Josefin Sans', sans-serif;
+            line-height: 25px;
+        }
+        .para-6{
+            padding: 60px 75px;
+            background-color: black;
+            color: white;
+        }
+        .text{
+            width:46%;
+            padding: 25px 0px;
+        }
+        .text h3{
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 39px;
+            color:white;
+        }
+        .text p{
+            font-family: 'Josefin Sans', sans-serif;
+            color:darkgrey;
+            padding:10px 0px;
+        }
+        .button{
+            background-color:yellow;
+            color: black;
+            padding: 8px 22px;
+            width: 124px;
+        }
+        .para-7{
+            display:flex;
+            flex-wrap: wrap;
+            padding: 30px 100px;
+            margin:0px -152px;
+            background-color:#414141;
+            color: white;
+        }
+        .para-7 h3{
+            display: flex;
+            justify-content: start;
+            width:90%;
+            }
+        .para-7 ul{
+            display:flex;
+            justify-content: end;
+            }
+        .para-7 li{
+            padding:0px 5px;
+        }
+        @media screen and (max-width:768px) {
+        .para-1{
+            margin: 10px 0px; 
+        }
+        .para-1 ul {
+            display: none;
+        }
+        .para-1 a{
+            display: none;
+        }
+        .para-1 h3{
+            width:85%;
+        }
+        .para-1 i{
+            display: flex;
+            align-items: center;
+        }
+        .para-2{
+            padding:20px 0px;
+        }
+        .para-2 h1{
+            width:100%;
+            font-size: 35px;
+        }
+        .para-2 p{
+            width:100%;
+        }
+        .para-3 img{
+            padding:5px 15px;
+        }
+        .para-4{
+            display: inline;
+        }
+        .Asset1{
+            padding:5px;
+        }
+        .Asset1 img{
+            width:350px;
+        }
+        .Asset2{
+            padding:5px;
+        }
+        .Asset2 img{
+            width:350px;
+        }
+        .para-5{
+            margin: 0% -44px;
+            padding: 50px;
+        }
+        .left{
+            width: 100%;
+        }
+        .right{
+            width:100%;
+        }
+        .para-6{
+            padding: 25px;
+        }
+        .text{
+            width: 100%;
+        }
+        .para-7{
+            margin: 0% -44px;
+            padding: 15px;
+        }
+        .para-7 h3{
+            width:70%;
+        }
+    }
